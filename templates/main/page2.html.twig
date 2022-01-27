@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<p>{{ unAnimal.com }}</p>
+
+    {% if unAnimal %}
+    <p>{{ unAnimal.nom }}</p>
+    {% endif %}
+
+    {#
+    {% for chaqueAnimal in tousLesAnimaux %}
+    <p> {{ chaqueAnimal.id }} - {{ chaqueAnimal.nom }}</p>
+
+    #}
+{% endblock %}
+

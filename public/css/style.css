@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Signika:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kristi&display=swap');
+
+body {
+    background-color: #ffffff;
+    font-family: 'Indie Flower', cursive;
+    background-color: #ffd7a8;
+    background-image: url("../img/wave.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size : 80px;
+    color: #FFFFFF;
+    font-family: 'Kristi', cursive !important;
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+.bucket_imgL {
+    position: absolute;
+    margin : 16% 0 0 15%;
+    transition: transform 250ms;
+}
+.bucket_imgL:hover {
+
+    transform: translateY(-10px);
+}
+
+
+.bucket_imgR {
+    position: absolute;
+    margin: 16% 0 0 75%;
+
+    transition: transform 250ms;
+}
+.bucket_imgR:hover {
+    transform: translateY(-10px);
+}
+
+.mid {
+    overflow: scroll;
+    height: 40vh;
+    width: 30vw;
+    margin : 8% 0 0 35%;
+    background-color: #ffffff;
+    position: absolute;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color : #000000;
+}
