@@ -1,8 +1,19 @@
 {% extends 'base.html.twig' %}
 
+
+
 {% block body %}
-<p><a href="{{ path('wish_detail',{'id':1}) }}">- Chose une</a></p>
-<p><a href="{{ path('wish_detail',{'id':2}) }}">- Chose deux</a></p>
-<p><a href="{{ path('wish_detail',{'id':3}) }}">- Chose trois</a></p>
+
+    <h2> mes petits seaux :</h2>
+
+
+    {% for unVoeux in tousLesVoeux %}
+        <p><a href="{{ path('wish_detail',{'id':unVoeux.id}) }}">{{ unVoeux.id }} - {{ unVoeux.name }}</a></p>
+    {% endfor %}
+
 {% endblock %}
+
+
+
+
 

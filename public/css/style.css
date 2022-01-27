@@ -62,3 +62,13 @@ a {
     text-decoration: none;
     color : #000000;
 }
+
+.titre {
+    font-size: 30px;
+    margin-left: 30px;
+    color: #5eb5e0;
+}
+
+.descriptionDetail {
+    margin-left: 30px;
+}

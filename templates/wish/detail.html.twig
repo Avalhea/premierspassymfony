@@ -1,6 +1,10 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <p>Wish n°{{ id }}</p>
+    <div class="titre"><p>Wish n°{{ leVoeux.id }}  - {{ leVoeux.date|date('d-m-Y') }}</p></div>
+
+    <p> {{ leVoeux.name }}</p>
+    <p>  {{ leVoeux.description }}</p>
+
 {% endblock %}
 
